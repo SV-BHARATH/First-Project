@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Page</title>
+<link rel="stylesheet" href="registerstyle.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+	rel='stylesheet'>
+</head>
+<body>
+    
+	<div class="body">
+
+		<h1>Register</h1>
+
+		<form name="form" >
+			<div class="input">
+				<input type="text" name="username" placeholder="Username"  id="un" required>
+			</div>
+
+			<div class="input">
+				<input type="text" name="FirstName" placeholder="FirstName" id="fn"
+					required>
+			</div>
+
+            <div class="input">
+				<input type="text" name="LastName" placeholder="LastName" id="ln"
+					required>
+			</div>
+
+            <div class="input">
+				<input type="text" name="EmailId" placeholder="EmailId" id="em"
+					required>
+			</div>
+
+            <div class="input">
+				<input type="password" name="Password" placeholder="Password" id="ps"
+					required>
+			</div>
+
+			<div class="input">
+				<input type="text" name="MobileNo" placeholder="MobileNo" id="mn"
+					required>
+			</div>
+
+
+
+            <div class="input">
+              <select id="opt">
+                
+              </select>
+				</div>
+
+            <div class="input">
+				<input type="text" name="UserType" placeholder="UserType" id="ut"
+					required>
+			</div>
+
+            <div class="input">
+				<input type="text" name="Status" placeholder="Status" id="su"
+					required>
+			</div>
+
+			<div class="remember-forgot">
+				<label><input type="checkbox" id="remember"> Remember me </label>
+			</div>
+
+			<input type="button" value="Register"  id="btn" class="btn">
+
+		</form>
+
+		<div class="register">
+			<p>
+				Already have an account? <a href="login.html">Login</a>
+			</p>
+		</div>
+	</div>
+	<script src="register.js"></script>
+</body>
+
+</html>
